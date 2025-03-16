@@ -29,7 +29,7 @@ cp .env.sample .env
 
 ```mermaid
 flowchart TD
-    GetInfo([Get latest_mapping_id and max_page_number]) --> CheckDataPosition{Page in new data?}
+    GetInfo([Get latest_mapping_id </br>and max_page_number]) --> CheckDataPosition{Page in new data?}
     
     CheckDataPosition -->|Yes| QueryNewData([Query new data directly])
     CheckDataPosition -->|No| GetPagePositions([Calculate page positions])

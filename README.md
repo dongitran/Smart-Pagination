@@ -13,7 +13,7 @@ A smart solution for paginating large, constantly changing PostgreSQL datasets u
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/smart-pagination.git
+git clone https://github.com/dongitran/smart-pagination.git
 
 # Navigate to the project directory
 cd smart-pagination
